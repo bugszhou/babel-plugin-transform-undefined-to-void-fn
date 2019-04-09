@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-undefined-to-void-fn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "void(0) undefined",
   "main": "./src/index.js",
   "scripts": {

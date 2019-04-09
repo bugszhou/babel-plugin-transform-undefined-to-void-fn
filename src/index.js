@@ -14,7 +14,7 @@ module.exports = function({
     prefix: true,
   };
   return {
-    name: "transform-undefined-to-void",
+    name: "transform-undefined-to-void-fn",
     visitor: {
       ReferencedIdentifier(path) {
         if (path.node.name === "undefined") {
